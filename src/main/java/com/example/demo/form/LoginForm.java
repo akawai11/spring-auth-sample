@@ -1,9 +1,11 @@
 package com.example.demo.form;
 
+import javax.validation.constraints.NotEmpty;
+
 public class LoginForm {
-
+    @NotEmpty
     private String id;
-
+    @NotEmpty
     private String password;
 
     public String getId() {
